@@ -4,7 +4,7 @@ export const marvelMovies = [
     "title": "Capitán América: El primer vengador",
     "year": "2011",
     "type": "Movie",
-    "teaser": "Una heroína del espacio regresa a la Tierra en los años 90...",
+    "teaser": "El origen del primer súper soldado en la Segunda Guerra Mundial.",
     "questions": [
       {
         "question": "¿En qué año se ambienta principalmente la película?",
@@ -58,14 +58,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Chris Evans rechazó el papel de Capitán América tres veces por miedo a cómo afectaría su vida privada la repentina fama. ¡Robert Downey Jr. lo convenció de aceptar!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Capit%C3%A1n%20Am%C3%A9rica%3A%20El%20primer%20vengador"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Captain_America_The_First_Avenger_logo.svg/500px-Captain_America_The_First_Avenger_logo.svg.png"
   },
   {
     "id": 2,
     "title": "Capitana Marvel",
     "year": "2019",
     "type": "Movie",
-    "teaser": "El inicio del multimillonario excéntrico que lo empezó todo...",
+    "teaser": "Una heroína con poderes cósmicos regresa a la Tierra en los años 90.",
     "questions": [
       {
         "question": "¿A qué raza alienígena pertenece el equipo de Vers (Carol) al inicio?",
@@ -119,14 +119,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Brie Larson es alérgica a los gatos en la vida real, así que todas sus escenas con 'Goose' se hicieron con títeres o CGI cuando no podía usar dobles de gato.",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Capitana%20Marvel"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Captain_Marvel_The_Infinity_Saga_logo.svg/500px-Captain_Marvel_The_Infinity_Saga_logo.svg.png"
   },
   {
     "id": 3,
     "title": "Iron Man",
     "year": "2008",
     "type": "Movie",
-    "teaser": "Un científico con problemas de control de ira...",
+    "teaser": "El inicio del multimillonario excéntrico que lo empezó todo.",
     "questions": [
       {
         "question": "¿En qué país es secuestrado Tony Stark?",
@@ -180,14 +180,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "La frase final de la película 'Yo soy Iron Man' fue improvisada por Robert Downey Jr. en el set. A Kevin Feige le gustó tanto que la dejó, rompiendo la regla de oro de las identidades secretas.",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Iron%20Man"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Iron_Man_-_2008_movie_logo.svg/500px-Iron_Man_-_2008_movie_logo.svg.png"
   },
   {
     "id": 4,
     "title": "El increíble Hulk",
     "year": "2008",
     "type": "Movie",
-    "teaser": "El regreso de Iron Man y un nuevo rival ruso...",
+    "teaser": "Un científico fugitivo busca la cura para su monstruosa condición.",
     "questions": [
       {
         "question": "¿Dónde está escondido Bruce Banner al principio de la película?",
@@ -241,14 +241,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Esta es la única película de la Fase 1 en la que Mark Ruffalo no interpreta a Bruce Banner; el papel fue de Edward Norton antes de ser reemplazado para Los Vengadores.",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=El%20incre%C3%ADble%20Hulk"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/The_Incredible_Hulk_The_Infinity_Saga_logo.svg/500px-The_Incredible_Hulk_The_Infinity_Saga_logo.svg.png"
   },
   {
     "id": 5,
     "title": "Iron Man 2",
     "year": "2010",
     "type": "Movie",
-    "teaser": "Un dios nórdico es desterrado a la Tierra...",
+    "teaser": "Tony Stark se enfrenta a las consecuencias de revelar su identidad.",
     "questions": [
       {
         "question": "¿Qué elemento del reactor arc está envenenando a Tony?",
@@ -302,14 +302,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Scarlett Johansson se tiñó el pelo de rojo antes de que le dieran el papel de Black Widow para convencer al director Jon Favreau de que era la indicada.",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Iron%20Man%202"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Iron_Man_2_The_Infinity_Saga_logo.svg/500px-Iron_Man_2_The_Infinity_Saga_logo.svg.png"
   },
   {
     "id": 6,
     "title": "Thor",
     "year": "2011",
     "type": "Movie",
-    "teaser": "El equipo se reúne por primera vez para salvar a Nueva York...",
+    "teaser": "Un arrogante dios del trueno es desterrado a la Tierra sin sus poderes.",
     "questions": [
       {
         "question": "¿A qué reino viaja Thor desobedeciendo a Odín al principio?",
@@ -363,14 +363,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Chris Hemsworth y su hermano Liam Hemsworth compitieron por el papel de Thor. Chris ganó al final tras una segunda audición.",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Thor"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Thor_The_Infinity_Saga_logo.svg/500px-Thor_The_Infinity_Saga_logo.svg.png"
   },
   {
     "id": 7,
     "title": "Los Vengadores",
     "year": "2012",
     "type": "Movie",
-    "teaser": "Tony Stark lidia con el estrés post-traumático...",
+    "teaser": "Los héroes más poderosos de la Tierra se reúnen para salvar Nueva York.",
     "questions": [
       {
         "question": "¿Qué busca robar Loki al principio de la película?",
@@ -424,14 +424,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "La icónica toma circular de los seis Vengadores reunidos en la Batalla de Nueva York fue totalmente digital, ninguno de los actores filmó la escena al mismo tiempo.",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Los%20Vengadores"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/The_Avengers_The_Infinity_Saga_logo.svg/500px-The_Avengers_The_Infinity_Saga_logo.svg.png"
   },
   {
     "id": 8,
     "title": "Iron Man 3",
     "year": "2013",
     "type": "Movie",
-    "teaser": "Thor debe enfrentarse a los Elfos Oscuros...",
+    "teaser": "Tony lidia con el estrés postraumático mientras enfrenta al Mandarín.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -485,14 +485,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Iron%20Man%203"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Iron_Man_3_The_Infinity_Saga_logo.svg/500px-Iron_Man_3_The_Infinity_Saga_logo.svg.png"
   },
   {
     "id": 9,
     "title": "Thor: El mundo oscuro",
     "year": "2013",
     "type": "Movie",
-    "teaser": "Capitán América descubre un secreto oscuro dentro de SHIELD...",
+    "teaser": "Thor debe enfrentarse a los Elfos Oscuros para salvar el universo.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -546,14 +546,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Thor%3A%20El%20mundo%20oscuro"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Thor_The_Dark_World_The_Infinity_Saga_logo.svg/500px-Thor_The_Dark_World_The_Infinity_Saga_logo.svg.png"
   },
   {
     "id": 10,
     "title": "Capitán América: El soldado de invierno",
     "year": "2014",
     "type": "Movie",
-    "teaser": "Un grupo de inadaptados en el espacio...",
+    "teaser": "Steve Rogers descubre un oscuro secreto infiltrado en SHIELD.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -607,14 +607,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Capit%C3%A1n%20Am%C3%A9rica%3A%20El%20soldado%20de%20invierno"
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Captain_America_The_Winter_Soldier_The_Infinity_Saga_logo.svg/500px-Captain_America_The_Winter_Soldier_The_Infinity_Saga_logo.svg.png"
   },
   {
     "id": 11,
     "title": "Guardianes de la Galaxia",
     "year": "2014",
     "type": "Movie",
-    "teaser": "El padre de Star-Lord hace su aparición...",
+    "teaser": "Un grupo de inadaptados en el espacio se unen para salvar la galaxia.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -668,14 +668,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Guardianes%20de%20la%20Galaxia"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Guardianes%20de%20la%20Galaxia"
   },
   {
     "id": 12,
     "title": "Guardianes de la Galaxia Vol. 2",
     "year": "2017",
     "type": "Movie",
-    "teaser": "Las aventuras del árbol parlante más lindo...",
+    "teaser": "Los Guardianes descubren el misterio del verdadero linaje de Peter Quill.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -729,14 +729,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Guardianes%20de%20la%20Galaxia%20Vol.%202"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Guardianes%20de%20la%20Galaxia%20Vol.%202"
   },
   {
     "id": 13,
     "title": "Serie en Disney+: Yo Soy Groot",
     "year": "2022",
     "type": "Series",
-    "teaser": "Tony Stark crea una IA que sale terriblemente mal...",
+    "teaser": "Las divertidas aventuras de Baby Groot por la galaxia.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -790,14 +790,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Yo%20Soy%20Groot"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Yo%20Soy%20Groot"
   },
   {
     "id": 14,
     "title": "Vengadores: La era de Ultrón",
     "year": "2015",
     "type": "Movie",
-    "teaser": "Un ladrón se convierte en el héroe más pequeño...",
+    "teaser": "Los Vengadores enfrentan a una IA diseñada para destruir a la humanidad.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -851,14 +851,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Vengadores%3A%20La%20era%20de%20Ultr%C3%B3n"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Vengadores%3A%20La%20era%20de%20Ultr%C3%B3n"
   },
   {
     "id": 15,
     "title": "Ant-Man",
     "year": "2015",
     "type": "Movie",
-    "teaser": "Los Vengadores se dividen por los Acuerdos de Sokovia...",
+    "teaser": "Un ladrón con un traje que encoge su tamaño debe salvar el mundo.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -912,14 +912,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Ant-Man"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Ant-Man"
   },
   {
     "id": 16,
     "title": "Capitán América: Civil War",
     "year": "2016",
     "type": "Movie",
-    "teaser": "Natasha Romanoff se enfrenta a su pasado...",
+    "teaser": "Los Vengadores se dividen en dos bandos liderados por Tony y Steve.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -973,14 +973,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Capit%C3%A1n%20Am%C3%A9rica%3A%20Civil%20War"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Capit%C3%A1n%20Am%C3%A9rica%3A%20Civil%20War"
   },
   {
     "id": 17,
     "title": "Viuda Negra",
     "year": "2021",
     "type": "Movie",
-    "teaser": "Viajamos a la nación oculta de Wakanda...",
+    "teaser": "Natasha Romanoff confronta las partes más oscuras de su pasado.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1034,14 +1034,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Viuda%20Negra"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Viuda%20Negra"
   },
   {
     "id": 18,
     "title": "Black Panther",
     "year": "2018",
     "type": "Movie",
-    "teaser": "El mejor neurocirujano aprende magia...",
+    "teaser": "T'Challa regresa a Wakanda para asumir el trono y defender a su pueblo.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1095,14 +1095,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Black%20Panther"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Black%20Panther"
   },
   {
     "id": 19,
     "title": "Doctor Strange",
     "year": "2016",
     "type": "Movie",
-    "teaser": "Peter Parker vuelve a la escuela y enfrenta al Buitre...",
+    "teaser": "Un cirujano descubre el mundo oculto de la magia y las dimensiones alternativas.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1156,14 +1156,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Doctor%20Strange"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Doctor%20Strange"
   },
   {
     "id": 20,
     "title": "Spider-Man: Homecoming",
     "year": "2017",
     "type": "Movie",
-    "teaser": "Ant-Man y La Avispa trabajan en equipo...",
+    "teaser": "Peter Parker intenta equilibrar su vida escolar con ser un superhéroe.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1217,14 +1217,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Spider-Man%3A%20Homecoming"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Spider-Man%3A%20Homecoming"
   },
   {
     "id": 21,
     "title": "Ant-Man y la Avispa",
     "year": "2018",
     "type": "Movie",
-    "teaser": "Thor pierde su martillo y termina en un planeta de gladiadores...",
+    "teaser": "Scott Lang y Hope van Dyne se unen para rescatar a Janet del Reino Cuántico.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1278,14 +1278,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Ant-Man%20y%20la%20Avispa"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Ant-Man%20y%20la%20Avispa"
   },
   {
     "id": 22,
     "title": "Thor: Ragnarok",
     "year": "2017",
     "type": "Movie",
-    "teaser": "Thanos llega buscando las Gemas del Infinito...",
+    "teaser": "Thor debe escapar de Sakaar para salvar Asgard de la diosa Hela.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1339,14 +1339,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Thor%3A%20Ragnarok"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Thor%3A%20Ragnarok"
   },
   {
     "id": 23,
     "title": "Vengadores: Infinity War",
     "year": "2018",
     "type": "Movie",
-    "teaser": "Los que quedaron deben hacer lo que sea para traerlos de vuelta...",
+    "teaser": "Thanos busca recolectar las seis Gemas del Infinito. Los héroes deben detenerlo.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1400,14 +1400,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Vengadores%3A%20Infinity%20War"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Vengadores%3A%20Infinity%20War"
   },
   {
     "id": 24,
     "title": "Vengadores: Endgame",
     "year": "2019",
     "type": "Movie",
-    "teaser": "Una comedia de situación muy extraña en Westview...",
+    "teaser": "Los héroes sobrevivientes buscan revertir el daño causado por Thanos.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1461,14 +1461,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Vengadores%3A%20Endgame"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Vengadores%3A%20Endgame"
   },
   {
     "id": 25,
     "title": "Serie en Disney+: Bruja Escarlata y Vision",
     "year": "2021",
     "type": "Series",
-    "teaser": "El legado del escudo continúa...",
+    "teaser": "Wanda y Visión viven una vida suburbana perfecta... o eso parece.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1522,14 +1522,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Bruja%20Escarlata%20y%20Vision"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Bruja%20Escarlata%20y%20Vision"
   },
   {
     "id": 26,
     "title": "Serie en Disney+: Falcon y el soldado de invierno",
     "year": "2021",
     "type": "Series",
-    "teaser": "Peter Parker se va de vacaciones a Europa...",
+    "teaser": "Sam y Bucky lidian con el legado del escudo del Capitán América.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1583,14 +1583,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Falcon%20y%20el%20soldado%20de%20invierno"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Falcon%20y%20el%20soldado%20de%20invierno"
   },
   {
     "id": 27,
     "title": "Spider-Man: Far from Home",
     "year": "2019",
     "type": "Movie",
-    "teaser": "El Dios de las Mentiras rompe la línea temporal...",
+    "teaser": "Peter viaja a Europa y debe enfrentar nuevas amenazas con Mysterio.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1644,14 +1644,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Spider-Man%3A%20Far%20from%20Home"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Spider-Man%3A%20Far%20from%20Home"
   },
   {
     "id": 28,
     "title": "Serie en Disney+: Loki",
     "year": "2021",
     "type": "Series",
-    "teaser": "El multiverso se desata para Peter Parker...",
+    "teaser": "Loki altera la línea temporal y es capturado por la TVA.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1705,14 +1705,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Loki"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Loki"
   },
   {
     "id": 29,
     "title": "Spider-Man: No Way Home",
     "year": "2021",
     "type": "Movie",
-    "teaser": "Seres cósmicos inmortales salen de su escondite...",
+    "teaser": "El multiverso se abre y desata villanos de otras realidades.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1766,14 +1766,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Spider-Man%3A%20No%20Way%20Home"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Spider-Man%3A%20No%20Way%20Home"
   },
   {
     "id": 30,
     "title": "Eternals",
     "year": "2021",
     "type": "Movie",
-    "teaser": "Un nuevo héroe de las artes marciales...",
+    "teaser": "Una raza inmortal sale de las sombras para proteger la Tierra.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1827,14 +1827,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Eternals"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Eternals"
   },
   {
     "id": 31,
     "title": "Shang-Chi y la Leyenda de los Diez Anillos",
     "year": "2021",
     "type": "Movie",
-    "teaser": "Clint Barton entrena a su sucesora en Navidad...",
+    "teaser": "Shang-Chi debe enfrentar el pasado que creyó dejar atrás.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1888,14 +1888,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Shang-Chi%20y%20la%20Leyenda%20de%20los%20Diez%20Anillos"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Shang-Chi%20y%20la%20Leyenda%20de%20los%20Diez%20Anillos"
   },
   {
     "id": 32,
     "title": "Serie en Disney+: Ojo de Halcón",
     "year": "2021",
     "type": "Series",
-    "teaser": "Doctor Strange viaja a través del multiverso oscuro...",
+    "teaser": "Clint Barton hace equipo con la joven arquera Kate Bishop.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -1949,14 +1949,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Ojo%20de%20Halc%C3%B3n"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Ojo%20de%20Halc%C3%B3n"
   },
   {
     "id": 33,
     "title": "Doctor Strange en el multiverso de la locura",
     "year": "2022",
     "type": "Movie",
-    "teaser": "Un avatar de un dios egipcio sufre de identidades múltiples...",
+    "teaser": "Stephen Strange viaja por el multiverso para enfrentar un nuevo peligro.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2010,14 +2010,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Doctor%20Strange%20en%20el%20multiverso%20de%20la%20locura"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Doctor%20Strange%20en%20el%20multiverso%20de%20la%20locura"
   },
   {
     "id": 34,
     "title": "Serie en Disney+: Caballero Luna",
     "year": "2022",
     "type": "Series",
-    "teaser": "Una adolescente de New Jersey se vuelve heroína...",
+    "teaser": "Un empleado de museo descubre que comparte cuerpo con un mercenario.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2071,14 +2071,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Caballero%20Luna"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Caballero%20Luna"
   },
   {
     "id": 35,
     "title": "Serie en Disney+: Ms. Marvel",
     "year": "2022",
     "type": "Series",
-    "teaser": "Jane Foster empuña el Mjolnir...",
+    "teaser": "Kamala Khan, una joven fan de Capitana Marvel, obtiene sus propios poderes.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2132,14 +2132,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Ms.%20Marvel"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Ms.%20Marvel"
   },
   {
     "id": 36,
     "title": "Thor: Love and Thunder",
     "year": "2022",
     "type": "Movie",
-    "teaser": "Una joven prodigio crea su propia armadura...",
+    "teaser": "Thor busca la paz interior, pero es interrumpido por Gorr el Carnicero de Dioses.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2193,14 +2193,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Thor%3A%20Love%20and%20Thunder"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Thor%3A%20Love%20and%20Thunder"
   },
   {
     "id": 37,
     "title": "Serie en Disney+: Ironheart",
     "year": "TBA",
     "type": "Series",
-    "teaser": "La prima de Bruce Banner en la corte...",
+    "teaser": "La genial inventora Riri Williams crea la armadura más avanzada desde Iron Man.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2254,14 +2254,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Ironheart"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Ironheart"
   },
   {
     "id": 38,
     "title": "Serie en Disney+: She-Hulk",
     "year": "2022",
     "type": "Series",
-    "teaser": "Cazadores de monstruos en blanco y negro...",
+    "teaser": "Jennifer Walters navega por su vida como abogada y Hulk.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2315,14 +2315,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20She-Hulk"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20She-Hulk"
   },
   {
     "id": 39,
     "title": "Especial: Werewolf by Night",
     "year": "2022",
     "type": "Movie",
-    "teaser": "Wakanda llora a su rey y enfrenta una nueva amenaza bajo el agua...",
+    "teaser": "Cazadores de monstruos compiten por una poderosa reliquia.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2376,14 +2376,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Especial%3A%20Werewolf%20by%20Night"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Especial%3A%20Werewolf%20by%20Night"
   },
   {
     "id": 40,
     "title": "Black Panther: Wakanda Forever",
     "year": "2022",
     "type": "Movie",
-    "teaser": "Scott Lang viaja al reino cuántico y conoce a Kang...",
+    "teaser": "Wakanda llora a su rey y enfrenta la amenaza de Namor.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2437,14 +2437,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Black%20Panther%3A%20Wakanda%20Forever"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Black%20Panther%3A%20Wakanda%20Forever"
   },
   {
     "id": 41,
     "title": "Ant-Man y la Avispa: Quantumania",
     "year": "2023",
     "type": "Movie",
-    "teaser": "El emotivo final del viaje de los Guardianes...",
+    "teaser": "La familia Ant-Man se adentra en el Reino Cuántico para enfrentar a Kang.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2498,14 +2498,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Ant-Man%20y%20la%20Avispa%3A%20Quantumania"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Ant-Man%20y%20la%20Avispa%3A%20Quantumania"
   },
   {
     "id": 42,
     "title": "Guardianes de la Galaxia Vol 3.",
     "year": "2023",
     "type": "Movie",
-    "teaser": "Nick Fury descubre una infiltración Skrull...",
+    "teaser": "Los Guardianes se embarcan en una última misión para salvar a Rocket.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2559,14 +2559,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Guardianes%20de%20la%20Galaxia%20Vol%203."
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Guardianes%20de%20la%20Galaxia%20Vol%203."
   },
   {
     "id": 43,
     "title": "Serie en Disney+: Invasión Secreta",
     "year": "2023",
     "type": "Series",
-    "teaser": "Loki sigue saltando por el tiempo...",
+    "teaser": "Nick Fury descubre una conspiración Skrull en la Tierra.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2620,14 +2620,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Invasi%C3%B3n%20Secreta"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Invasi%C3%B3n%20Secreta"
   },
   {
     "id": 44,
     "title": "Serie en Disney+: Loki 2",
     "year": "2023",
     "type": "Series",
-    "teaser": "Tres heroínas intercambian lugares constantemente...",
+    "teaser": "Loki continúa su viaje por el multiverso y la TVA.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2681,14 +2681,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Loki%202"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Loki%202"
   },
   {
     "id": 45,
     "title": "The Marvels",
     "year": "2023",
     "type": "Movie",
-    "teaser": "Maya Lopez regresa a su hogar...",
+    "teaser": "Carol, Kamala y Monica entrelazan sus poderes cósmicos.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2742,14 +2742,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=The%20Marvels"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=The%20Marvels"
   },
   {
     "id": 46,
     "title": "Serie en Disney+: ECHO",
     "year": "2024",
     "type": "Series",
-    "teaser": "El mercenario bocazas se une al mutante gruñón...",
+    "teaser": "Maya Lopez regresa a su pueblo para reconectar con sus raíces.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2803,14 +2803,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20ECHO"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20ECHO"
   },
   {
     "id": 47,
     "title": "Deadpool y Lobezno",
     "year": "2024",
     "type": "Movie",
-    "teaser": "La bruja vecina tiene su propia historia...",
+    "teaser": "Deadpool recluta a un Lobezno retirado para salvar su universo.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2864,14 +2864,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Deadpool%20y%20Lobezno"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Deadpool%20y%20Lobezno"
   },
   {
     "id": 48,
     "title": "Serie en Disney+: Agatha, ¿quién si no?",
     "year": "2024",
     "type": "Series",
-    "teaser": "Sam Wilson toma el vuelo como el nuevo Capitán América...",
+    "teaser": "Agatha Harkness busca recuperar su poder tras los eventos de Westview.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2925,14 +2925,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Agatha%2C%20%C2%BFqui%C3%A9n%20si%20no%3F"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Agatha%2C%20%C2%BFqui%C3%A9n%20si%20no%3F"
   },
   {
     "id": 49,
     "title": "Capitán América: Brave New World",
     "year": "2025",
     "type": "Movie",
-    "teaser": "Matt Murdock vuelve a las calles de Hell's Kitchen...",
+    "teaser": "Sam Wilson asume el manto del Capitán América en un nuevo orden mundial.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -2986,14 +2986,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Capit%C3%A1n%20Am%C3%A9rica%3A%20Brave%20New%20World"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Capit%C3%A1n%20Am%C3%A9rica%3A%20Brave%20New%20World"
   },
   {
     "id": 50,
     "title": "Serie en Disney+: Daredevil: Born Again",
     "year": "2025",
     "type": "Series",
-    "teaser": "Un grupo de villanos obligados a ser héroes...",
+    "teaser": "El Diablo de Hell's Kitchen regresa a las calles.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -3047,14 +3047,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Serie%20en%20Disney%2B%3A%20Daredevil%3A%20Born%20Again"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Daredevil%3A%20Born%20Again"
   },
   {
     "id": 51,
     "title": "Thunderbolts",
     "year": "2025",
     "type": "Movie",
-    "teaser": "La primera familia de Marvel llega al UCM...",
+    "teaser": "Un grupo de antihéroes es reunido para misiones peligrosas.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -3108,14 +3108,14 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Thunderbolts"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Thunderbolts"
   },
   {
     "id": 52,
     "title": "Los 4 Fantásticos: Primeros pasos",
     "year": "2025",
     "type": "Movie",
-    "teaser": "El camino final hacia Avengers Doomsday...",
+    "teaser": "La primera familia de Marvel entra en escena.",
     "questions": [
       {
         "question": "¿Disfrutaste esta entrega?",
@@ -3169,20 +3169,6 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://via.placeholder.com/600x900/1f2833/e23636?text=Los%204%20Fant%C3%A1sticos%3A%20Primeros%20pasos"
+    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Los%204%20Fant%C3%A1sticos%3A%20Primeros%20pasos"
   }
 ];
-
-// Helper to fill in placeholders for the rest of the quizzes so the app doesn't break
-marvelMovies.forEach(movie => {
-  if (movie.questions.length === 0) {
-    movie.questions = [
-      { question: "¿Disfrutaste esta entrega?", options: ["¡Sí!", "Estuvo bien", "No mucho", "¡Me encantó!"], correctAnswerIndex: 0 },
-      { question: "¿Cuál fue el mejor personaje?", options: ["El héroe", "El villano", "El alivio cómico", "El mentor"], correctAnswerIndex: 0 },
-      { question: "¿Cómo estuvo la acción?", options: ["Increíble", "Buena", "Promedio", "Faltó más"], correctAnswerIndex: 0 },
-      { question: "¿Te sorprendió la escena poscréditos?", options: ["¡Muchísimo!", "Un poco", "Ya lo sabía", "No la vi"], correctAnswerIndex: 0 },
-      { question: "¿Lista para la siguiente?", options: ["¡Vamos!", "Por supuesto", "Dame un respiro", "Siempre lista"], correctAnswerIndex: 0 }
-    ];
-    movie.funFact = "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!";
-  }
-});
