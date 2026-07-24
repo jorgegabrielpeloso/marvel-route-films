@@ -58,7 +58,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Chris Evans rechazó el papel de Capitán América tres veces por miedo a cómo afectaría su vida privada la repentina fama. ¡Robert Downey Jr. lo convenció de aceptar!",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Captain_America_The_First_Avenger_logo.svg/500px-Captain_America_The_First_Avenger_logo.svg.png"
+    "posterUrl": "/posters/1.jpg"
   },
   {
     "id": 2,
@@ -119,7 +119,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Brie Larson es alérgica a los gatos en la vida real, así que todas sus escenas con 'Goose' se hicieron con títeres o CGI cuando no podía usar dobles de gato.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Captain_Marvel_The_Infinity_Saga_logo.svg/500px-Captain_Marvel_The_Infinity_Saga_logo.svg.png"
+    "posterUrl": "/posters/2.webp"
   },
   {
     "id": 3,
@@ -180,7 +180,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "La frase final de la película 'Yo soy Iron Man' fue improvisada por Robert Downey Jr. en el set. A Kevin Feige le gustó tanto que la dejó, rompiendo la regla de oro de las identidades secretas.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Iron_Man_-_2008_movie_logo.svg/500px-Iron_Man_-_2008_movie_logo.svg.png"
+    "posterUrl": "/posters/3.webp"
   },
   {
     "id": 4,
@@ -241,7 +241,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Esta es la única película de la Fase 1 en la que Mark Ruffalo no interpreta a Bruce Banner; el papel fue de Edward Norton antes de ser reemplazado para Los Vengadores.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/The_Incredible_Hulk_The_Infinity_Saga_logo.svg/500px-The_Incredible_Hulk_The_Infinity_Saga_logo.svg.png"
+    "posterUrl": "/posters/4.jpg"
   },
   {
     "id": 5,
@@ -302,7 +302,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Scarlett Johansson se tiñó el pelo de rojo antes de que le dieran el papel de Black Widow para convencer al director Jon Favreau de que era la indicada.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Iron_Man_2_The_Infinity_Saga_logo.svg/500px-Iron_Man_2_The_Infinity_Saga_logo.svg.png"
+    "posterUrl": "/posters/5.webp"
   },
   {
     "id": 6,
@@ -363,7 +363,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "Chris Hemsworth y su hermano Liam Hemsworth compitieron por el papel de Thor. Chris ganó al final tras una segunda audición.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Thor_The_Infinity_Saga_logo.svg/500px-Thor_The_Infinity_Saga_logo.svg.png"
+    "posterUrl": "/posters/6.webp"
   },
   {
     "id": 7,
@@ -424,7 +424,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "La icónica toma circular de los seis Vengadores reunidos en la Batalla de Nueva York fue totalmente digital, ninguno de los actores filmó la escena al mismo tiempo.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/The_Avengers_The_Infinity_Saga_logo.svg/500px-The_Avengers_The_Infinity_Saga_logo.svg.png"
+    "posterUrl": "/posters/7.webp"
   },
   {
     "id": 8,
@@ -485,7 +485,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Iron_Man_3_The_Infinity_Saga_logo.svg/500px-Iron_Man_3_The_Infinity_Saga_logo.svg.png"
+    "posterUrl": "/posters/8.webp"
   },
   {
     "id": 9,
@@ -546,7 +546,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Thor_The_Dark_World_The_Infinity_Saga_logo.svg/500px-Thor_The_Dark_World_The_Infinity_Saga_logo.svg.png"
+    "posterUrl": "/posters/9.jpg"
   },
   {
     "id": 10,
@@ -607,7 +607,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Captain_America_The_Winter_Soldier_The_Infinity_Saga_logo.svg/500px-Captain_America_The_Winter_Soldier_The_Infinity_Saga_logo.svg.png"
+    "posterUrl": "/posters/10.webp"
   },
   {
     "id": 11,
@@ -668,7 +668,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Guardianes%20de%20la%20Galaxia"
+    "posterUrl": "/posters/11.webp"
   },
   {
     "id": 12,
@@ -729,7 +729,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Guardianes%20de%20la%20Galaxia%20Vol.%202"
+    "posterUrl": "/posters/12.webp"
   },
   {
     "id": 13,
@@ -790,7 +790,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Serie%20en%20Disney%2B%3A%20Yo%20Soy%20Groot"
+    "posterUrl": "/posters/13.webp"
   },
   {
     "id": 14,
@@ -851,7 +851,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Vengadores%3A%20La%20era%20de%20Ultr%C3%B3n"
+    "posterUrl": "/posters/14.webp"
   },
   {
     "id": 15,
@@ -912,7 +912,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Ant-Man"
+    "posterUrl": "/posters/15.webp"
   },
   {
     "id": 16,
@@ -973,7 +973,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Capit%C3%A1n%20Am%C3%A9rica%3A%20Civil%20War"
+    "posterUrl": "/posters/16.webp"
   },
   {
     "id": 17,
@@ -1034,7 +1034,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Viuda%20Negra"
+    "posterUrl": "/posters/17.jpg"
   },
   {
     "id": 18,
@@ -1095,7 +1095,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Black%20Panther"
+    "posterUrl": "/posters/18.jpeg"
   },
   {
     "id": 19,
@@ -1156,7 +1156,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Doctor%20Strange"
+    "posterUrl": "/posters/19.webp"
   },
   {
     "id": 20,
@@ -1217,7 +1217,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Spider-Man%3A%20Homecoming"
+    "posterUrl": "/posters/20.jpg"
   },
   {
     "id": 21,
@@ -1278,7 +1278,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Ant-Man%20y%20la%20Avispa"
+    "posterUrl": "/posters/21.webp"
   },
   {
     "id": 22,
@@ -1339,7 +1339,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Thor%3A%20Ragnarok"
+    "posterUrl": "/posters/22.jpg"
   },
   {
     "id": 23,
@@ -1400,7 +1400,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Vengadores%3A%20Infinity%20War"
+    "posterUrl": "/posters/23.jpg"
   },
   {
     "id": 24,
@@ -1461,7 +1461,7 @@ export const marvelMovies = [
       }
     ],
     "funFact": "¡Agrega más preguntas y datos divertidos para esta película en el archivo de datos!",
-    "posterUrl": "https://placehold.co/600x900/1f2833/e23636.png?text=Vengadores%3A%20Endgame"
+    "posterUrl": "/posters/24.jpg"
   },
   {
     "id": 25,
