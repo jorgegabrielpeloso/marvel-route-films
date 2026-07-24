@@ -1,10 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { marvelMovies } from '../data/marvelChronology';
-import { Check, Lock, Play } from 'lucide-react';
+import { Check, Lock, Play, Award } from 'lucide-react';
 
 const RouteScreen = ({ progress, onSelectMovie }) => {
   const currentMovieId = marvelMovies[progress.currentMovieIndex]?.id;
+  const completedCount = progress.completedMovies.length;
+
+  const badges = [
+    { count: 5, name: "Recluta de S.H.I.E.L.D.", icon: "🛡️" },
+    { count: 10, name: "Vengador Honorario", icon: "⭐" },
+    { count: 20, name: "Defensor de la Tierra", icon: "🌍" },
+    { count: 30, name: "Guardián de la Galaxia", icon: "🚀" },
+    { count: 40, name: "Maestro de las Artes Místicas", icon: "✨" },
+    { count: 50, name: "Viajero del Multiverso", icon: "🌌" }
+  ];
+
+  const earnedBadges = badges.filter(b => completedCount >= b.count);
 
   return (
     <motion.div 
@@ -19,9 +31,30 @@ const RouteScreen = ({ progress, onSelectMovie }) => {
           Agente: {progress.userName}
         </p>
         <p style={{ color: 'var(--text-light)', fontFamily: 'Outfit' }}>
-          {progress.completedMovies.length} de {marvelMovies.length} completadas ({Math.round((progress.completedMovies.length / marvelMovies.length) * 100)}%)
+          {completedCount} de {marvelMovies.length} completadas ({Math.round((completedCount / marvelMovies.length) * 100)}%)
         </p>
       </div>
+
+      {earnedBadges.length > 0 && (
+        <div style={{ marginBottom: '2rem', padding: '1rem', backgroundColor: 'var(--bg-card)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
+          <h3 style={{ color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
+            <Award size={20} /> Tus Insignias Desbloqueadas
+          </h3>
+          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+            {earnedBadges.map((badge, i) => (
+              <motion.div 
+                key={i}
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                style={{ background: 'rgba(255,255,255,0.05)', padding: '0.5rem 1rem', borderRadius: '20px', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
+              >
+                <span style={{ fontSize: '1.5rem' }}>{badge.icon}</span>
+                <span style={{ fontWeight: 'bold', fontSize: '0.9rem' }}>{badge.name}</span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="timeline-container">
         {marvelMovies.map((movie, index) => {
