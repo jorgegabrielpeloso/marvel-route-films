@@ -25,24 +25,37 @@ const RouteScreen = ({ progress, onSelectMovie, onViewRanking }) => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="flex justify-between items-center mb-8 bg-[#1a1f26] p-4 rounded-xl border border-gray-800 shadow-xl relative z-10">
-        <div>
+      <div className="flex flex-wrap justify-between items-center mb-8 bg-[#1a1f26] p-4 rounded-xl border border-gray-800 shadow-xl relative z-10 gap-4">
+        <div className="flex-1 min-w-[120px]">
           <h2 className="text-sm font-medium text-gray-400">Agente</h2>
-          <p className="text-lg font-bold text-[#e23636] uppercase">{progress.userName || 'No Identificado'}</p>
-        </div>
-        <div className="flex gap-4">
+          <p className="text-lg font-bold text-[#e23636] uppercase truncate mb-1">{progress.userName || 'No Identificado'}</p>
           <button 
-            onClick={onViewRanking}
-            className="flex flex-col items-center justify-center p-2 rounded-lg bg-[#e23636]/10 text-[#e23636] hover:bg-[#e23636]/20 transition-colors"
-            title="Ver Ranking Global"
+            onClick={() => {
+                if (window.confirm("¿Seguro que quieres cerrar sesión y cambiar de agente?")) {
+                    localStorage.removeItem('marvel_tracker_progress');
+                    window.location.reload();
+                }
+            }}
+            className="text-[10px] bg-gray-800 text-gray-300 px-2 py-1 rounded hover:bg-gray-700 transition-colors"
           >
-            <Trophy className="w-5 h-5 mb-1" />
-            <span className="text-[10px] font-bold uppercase">Ranking</span>
+            Cambiar Agente
           </button>
+        </div>
+        
+        <div className="flex items-center gap-4">
           <div className="text-right">
             <h2 className="text-sm font-medium text-gray-400">Score</h2>
-            <p className="text-xl font-bold tracking-wider">{progress.totalScore}</p>
+            <p className="text-xl font-bold tracking-wider text-white">{progress.totalScore}</p>
           </div>
+          
+          <button 
+            onClick={onViewRanking}
+            className="flex items-center justify-center px-4 py-2 rounded-lg bg-[#e23636] text-white hover:bg-red-600 transition-colors shadow-lg shadow-red-500/20"
+            title="Ver Ranking Global"
+          >
+            <Trophy className="w-5 h-5 mr-2" />
+            <span className="text-sm font-bold uppercase">Ranking</span>
+          </button>
         </div>
       </div>
 
