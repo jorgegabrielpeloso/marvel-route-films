@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { marvelMovies } from '../data/marvelChronology';
-import { Check, Lock, Play, Award } from 'lucide-react';
+import { Check, Lock, Play, Trophy } from 'lucide-react';
 
-const RouteScreen = ({ progress, onSelectMovie }) => {
+const RouteScreen = ({ progress, onSelectMovie, onViewRanking }) => {
   const currentMovieId = marvelMovies[progress.currentMovieIndex]?.id;
   const completedCount = progress.completedMovies.length;
 
@@ -25,6 +25,27 @@ const RouteScreen = ({ progress, onSelectMovie }) => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+      <div className="flex justify-between items-center mb-8 bg-[#1a1f26] p-4 rounded-xl border border-gray-800 shadow-xl relative z-10">
+        <div>
+          <h2 className="text-sm font-medium text-gray-400">Agente</h2>
+          <p className="text-lg font-bold text-[#e23636] uppercase">{progress.userName || 'No Identificado'}</p>
+        </div>
+        <div className="flex gap-4">
+          <button 
+            onClick={onViewRanking}
+            className="flex flex-col items-center justify-center p-2 rounded-lg bg-[#e23636]/10 text-[#e23636] hover:bg-[#e23636]/20 transition-colors"
+            title="Ver Ranking Global"
+          >
+            <Trophy className="w-5 h-5 mb-1" />
+            <span className="text-[10px] font-bold uppercase">Ranking</span>
+          </button>
+          <div className="text-right">
+            <h2 className="text-sm font-medium text-gray-400">Score</h2>
+            <p className="text-xl font-bold tracking-wider">{progress.score}</p>
+          </div>
+        </div>
+      </div>
+
       <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <h1 className="bangers" style={{ fontSize: '3rem', color: 'var(--primary)', textShadow: '2px 2px 0 #000' }}>MCU TRACKER</h1>
         <p style={{ color: 'var(--accent)', fontFamily: 'Outfit', fontSize: '1.2rem', marginBottom: '0.5rem' }}>

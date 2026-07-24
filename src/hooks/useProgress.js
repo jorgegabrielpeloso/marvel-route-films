@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { saveUserProgress } from '../services/firebase';
 
 const STORAGE_KEY = 'marvel_tracker_progress';
 

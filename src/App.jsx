@@ -5,6 +5,7 @@ import RouteScreen from './components/RouteScreen';
 import MovieDetailScreen from './components/MovieDetailScreen';
 import QuizScreen from './components/QuizScreen';
 import ResultScreen from './components/ResultScreen';
+import RankingScreen from './components/RankingScreen';
 import { useProgress } from './hooks/useProgress';
 import { marvelMovies } from './data/marvelChronology';
 
@@ -56,52 +57,28 @@ function App() {
     setSelectedMovie(null);
   };
 
+  const renderScreen = () => {
+    switch (gameState) {
+      case 'welcome':
+        return <WelcomeScreen key="welcome" onSaveName={handleSaveName} />;
+      case 'route':
+        return <RouteScreen key="route" progress={progress} onSelectMovie={handleSelectMovie} onViewRanking={() => setGameState('ranking')} />;
+      case 'ranking':
+        return <RankingScreen key="ranking" onBack={() => setGameState('route')} />;
+      case 'detail':
+        return <MovieDetailScreen key="detail" movie={selectedMovie} isCompleted={progress.completedMovies.some(m => m.id === selectedMovie.id)} onBack={() => setGameState('route')} onStartQuiz={handleStartQuiz} />;
+      case 'quiz':
+        return <QuizScreen key="quiz" movie={selectedMovie} currentIndex={currentQuestionIndex} isLastQuestion={currentQuestionIndex === selectedMovie.questions.length - 1} onAnswer={handleAnswer} />;
+      case 'result':
+        return <ResultScreen key="result" movie={selectedMovie} score={score} total={selectedMovie.questions.length} onContinue={handleContinue} />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <AnimatePresence mode="wait">
-      {gameState === 'welcome' && (
-        <WelcomeScreen 
-          key="welcome"
-          onSaveName={handleSaveName}
-        />
-      )}
-
-      {gameState === 'route' && (
-        <RouteScreen 
-          key="route" 
-          progress={progress} 
-          onSelectMovie={handleSelectMovie} 
-        />
-      )}
-      
-      {gameState === 'detail' && selectedMovie && (
-        <MovieDetailScreen 
-          key="detail" 
-          movie={selectedMovie}
-          isCompleted={progress.completedMovies.some(m => m.id === selectedMovie.id)}
-          onBack={() => setGameState('route')}
-          onStartQuiz={handleStartQuiz}
-        />
-      )}
-
-      {gameState === 'quiz' && selectedMovie && (
-        <QuizScreen 
-          key="quiz" 
-          movie={selectedMovie}
-          currentIndex={currentQuestionIndex}
-          isLastQuestion={currentQuestionIndex === selectedMovie.questions.length - 1}
-          onAnswer={handleAnswer}
-        />
-      )}
-
-      {gameState === 'result' && selectedMovie && (
-        <ResultScreen 
-          key="result" 
-          movie={selectedMovie}
-          score={score}
-          total={selectedMovie.questions.length}
-          onContinue={handleContinue}
-        />
-      )}
+      {renderScreen()}
     </AnimatePresence>
   );
 }
