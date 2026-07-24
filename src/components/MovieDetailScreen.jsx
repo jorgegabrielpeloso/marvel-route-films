@@ -42,19 +42,6 @@ const MovieDetailScreen = ({ movie, isCompleted, onBack, onStartQuiz }) => {
             {movie.teaser || "Una increíble aventura del Universo Cinematográfico de Marvel."}
           </p>
           
-          <div className="mb-6 rounded-xl overflow-hidden shadow-lg border border-gray-800">
-            <iframe 
-                style={{ borderRadius: '12px' }} 
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8IifcgP0q62?utm_source=generator&theme=0" 
-                width="100%" 
-                height="152" 
-                frameBorder="0" 
-                allowFullScreen="" 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                loading="lazy">
-            </iframe>
-          </div>
-
           <p style={{ color: 'var(--text-light)', marginBottom: '1rem', fontSize: '0.9rem' }}>
             ¿Cuántas horas te tomó verla? Ingresa solo el número de horas.
           </p>

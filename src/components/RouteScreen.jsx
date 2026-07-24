@@ -41,10 +41,19 @@ const RouteScreen = ({ progress, onSelectMovie, onViewRanking }) => {
           </button>
           <div className="text-right">
             <h2 className="text-sm font-medium text-gray-400">Score</h2>
-            <p className="text-xl font-bold tracking-wider">{progress.score}</p>
+            <p className="text-xl font-bold tracking-wider">{progress.totalScore}</p>
           </div>
         </div>
       </div>
+
+      {completedCount >= 1 && (
+        <div className="mb-6 flex justify-center">
+            <div className="bg-[#e23636]/20 border border-[#e23636] text-[#e23636] px-4 py-2 rounded-full flex items-center shadow-[0_0_15px_rgba(226,54,54,0.4)]">
+                <Trophy className="w-4 h-4 mr-2" />
+                <span className="font-bold text-sm uppercase">Insignia: Primer Vengador 🛡️</span>
+            </div>
+        </div>
+      )}
 
       <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <h1 className="bangers" style={{ fontSize: '3rem', color: 'var(--primary)', textShadow: '2px 2px 0 #000' }}>MCU TRACKER</h1>

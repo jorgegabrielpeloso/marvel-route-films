@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CheckCircle2, XCircle, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import SuperHeroAnimation from './SuperHeroAnimation';
@@ -7,6 +7,19 @@ const QuizScreen = ({ movie, currentIndex, onAnswer, isLastQuestion }) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [isAnswered, setIsAnswered] = useState(false);
   const [animationType, setAnimationType] = useState(null);
+
+  useEffect(() => {
+    // Play Avengers theme when quiz starts
+    const audio = new Audio('/audio/avengers.weba');
+    audio.volume = 0.3; // Low volume for background
+    audio.loop = true;
+    audio.play().catch(e => console.log("Audio autoplay blocked:", e));
+
+    return () => {
+        audio.pause();
+        audio.currentTime = 0;
+    };
+  }, []);
 
   const questionData = movie.questions[currentIndex];
   const totalQuestions = movie.questions.length;
